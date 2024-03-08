@@ -12,8 +12,8 @@ export default function Navbar() {
     setHamburgerOpen(!isHamburgerOpen);
   };
   return (
-    <section className=" flex items-center w-screen h-[90px] fixed">
-      <div className="mx-auto w-[80%] bg-[#3e1c00] opacity-70 rounded-lg h-[70px] flex justify-between items-center hover:opacity-100">
+    <section className=" flex items-center w-screen h-[90px] fixed z-[100]">
+      <div className="mx-auto w-[80%] bg-[#3e1c00] opacity-80 rounded-lg h-[70px] flex justify-between items-center hover:opacity-100 z-[100]">
         <div className="mx-10">
           <img src={mkdWhite} className="size-[60px] cursor-pointer" />
         </div>
