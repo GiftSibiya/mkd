@@ -1,10 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Home from "./screens/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">MKD HERE</header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" Component={Home} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
