@@ -1,7 +1,7 @@
 // imports
 import React from "react";
 
-// files
+// components
 import TileService from "../custom modules/TileService";
 
 // Service Pics
@@ -24,6 +24,7 @@ export default function Services() {
           {/* Custom Service Module */}
 
           {/* -- */}
+          {/* // Imported Tile Components */}
 
           <TileService
             heading="Custom Kitchen Fittings"
