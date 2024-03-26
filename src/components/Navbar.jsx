@@ -12,8 +12,8 @@ export default function Navbar() {
     setHamburgerOpen(!isHamburgerOpen);
   };
   return (
-    <section className=" flex items-center w-screen h-[90px] fixed z-[100]">
-      <div className="mx-auto w-[80%] bg-[#3e1c00] opacity-80 rounded-lg h-[70px] flex justify-between items-center hover:opacity-100 z-[100]">
+    <section className="  flex items-center w-screen h-[90px] fixed z-[100]">
+      <div className="mx-auto w-[80%] border-2 border-white bg-[#3e1c00] opacity-80 rounded-lg h-[70px] flex justify-between items-center hover:opacity-100 z-[100]">
         <div className="mx-10">
           <img src={mkdWhite} className="size-[60px] cursor-pointer" />
         </div>
@@ -35,7 +35,9 @@ export default function Navbar() {
           </a>
         </div>
         {/* -- */}
-        <div className="text-white hidden sm:flex px-2 z-50">Call Us</div>
+        <div className="text-white hidden sm:flex px-2 z-50 cursor-pointer ">
+          Call Us
+        </div>
 
         {/* Hamburger Section */}
         <div className=" sm:hidden px-2" onClick={handleHamburger}>

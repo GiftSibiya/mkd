@@ -6,7 +6,7 @@ import React from "react";
 export default function TileService(props) {
   const { heading, description, imgPath } = props;
   return (
-    <div className="h-[320px] w-[350px] border-2  rounded-md">
+    <div className="h-[320px] w-[350px] border-2 border-[#854d1f] rounded-md bg-yellow-400">
       <div className="">
         <div
           style={{
@@ -21,10 +21,10 @@ export default function TileService(props) {
         <img
           src={imgPath}
           alt=""
-          className="relative hover:scale-[1.2] hover:h-[210px] hover:rounded-lg hover:shadow-3xl hover:mb-[40px] duration-100 shadow-lg top-[-30px] overflow-hidden object-cover w-screen h-[230px] z-3"
+          className="relative rounded-lg hover:scale-[1.2] hover:h-[210px] hover:rounded-lg hover:shadow-3xl hover:mb-[40px] duration-100 shadow-lg top-[-30px] overflow-hidden object-cover w-screen h-[230px] z-3"
         />
       </div>
-      <p className="text-sm px-[10px] relative bottom-[30px] text-center">
+      <p className="text-sm px-[10px] relative bottom-[30px] text-center font-Poppins">
         {description}
       </p>
     </div>
