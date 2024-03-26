@@ -24,7 +24,7 @@ export default function Services() {
           <p className="text-[25px] font-Poppins ">
             Explore Custom made timber sollutions
           </p>
-          <div className="border-[#854d1f] border-2 p-2 rounded-lg text-[20px] font-Poppins">
+          <div className="border-[#854d1f] border-2 p-2 rounded-lg text-[20px] font-Poppins hover:scale-110 hover:bg-[#854d1f] hover:text-white cursor-pointer duration-150">
             Get Started
           </div>
         </div>

@@ -19,18 +19,30 @@ export default function Navbar() {
         </div>
 
         {/* Link Container */}
-        <div className="mx-2 hidden sm:flex md:mx-10 ">
-          <a className="mx-1 text-white font-semibold" href="/">
+        <div className="mx-2 w-[400px] justify-between hidden sm:flex md:mx-10 ">
+          <a
+            className="mx-1 text-white font-Poppins font-semibold hover:scale-125 duration-100"
+            href="/"
+          >
             Home
           </a>
-          <a className="mx-1 text-white font-semibold" href="/">
+          <a
+            className="mx-1 text-white font-semibold font-Poppins hover:scale-125 duration-100"
+            href="/"
+          >
             {" "}
             Services
           </a>
-          <a className="mx-1 text-white font-semibold" href="/">
+          <a
+            className="mx-1 text-white font-semibold font-Poppins hover:scale-125 duration-100"
+            href="/"
+          >
             Gallery
           </a>
-          <a className="ml-1 text-white font-semibold" href="/">
+          <a
+            className="ml-1 text-white font-semibold font-Poppins hover:scale-125 duration-100"
+            href="/"
+          >
             About Us
           </a>
         </div>

@@ -32,7 +32,7 @@ const images = [
 
 export default function Gallery() {
   return (
-    <section className="h-[880px] flex flex-col items-center  sm:bg-slate-600 md:bg-red-500 lg:bg-white">
+    <section className="h-[980px] flex flex-col items-center  sm:bg-slate-600 md:bg-red-500 lg:bg-white">
       {" "}
       <h1 className="text-[2rem] font-bold mb-[30px] underline font-Poppins">
         View Our Expansive Gallery
